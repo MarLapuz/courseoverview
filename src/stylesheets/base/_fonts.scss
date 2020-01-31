@@ -1,0 +1,24 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@include font-face($font-neutrif-pro, $base-url + 'fonts/', 'neutrif-pro-regular', 'neutrif-pro-regular', 400);
+@include font-face($font-neutrif-pro, $base-url + 'fonts/', 'neutrif-pro-medium', 'neutrif-pro-medium', 500);
+@include font-face($font-neutrif-pro, $base-url + 'fonts/', 'neutrif-pro-semibold', 'neutrif-pro-semibold', 600);
+@include font-face($font-neutrif-pro, $base-url + 'fonts/', 'neutrif-pro-bold', 'neutrif-pro-bold', 700);
+
+@include font-face($font-avenir-light, $base-url + 'fonts/', 'avenirltstd-light', 'avenirltstd-lightt', 400);
+@include font-face($font-avenir-light-oblique, $base-url + 'fonts/', 'avenirltstd-lightoblique', 'avenirltstd-lightoblique', 450);
+@include font-face($font-avenir-medium, $base-url + 'fonts/', 'avenirltstd-medium', 'avenirltstd-medium', 500);
+@include font-face($font-avenir-medium-oblique, $base-url + 'fonts/', 'avenirltstd-mediumoblique', 'avenirltstd-mediumoblique', 550);
+@include font-face($font-avenir-heavy, $base-url + 'fonts/', 'avenir-heavy', 'avenir-heavy', 600);
+@include font-face($font-avenir-book, $base-url + 'fonts/', 'avenirltstd-book', 'avenirltstd-book', 700);
+@include font-face($font-avenir-book-oblique, $base-url + 'fonts/', 'avenirltstd-bookoblique', 'avenirltstd-bookoblique', 750);
+
+@include font-face($font-oswald-extra-light, $base-url + 'fonts/', 'oswald-extralight', 'oswald-extralight', 200);
+@include font-face($font-oswald-light, $base-url + 'fonts/', 'oswald-light', 'oswald-light', 300);
+@include font-face($font-oswald-regular, $base-url + 'fonts/', 'oswald-regular', 'oswald-regular', 400);
+@include font-face($font-oswald-medium, $base-url + 'fonts/', 'oswald-medium', 'oswald-medium', 500);
+@include font-face($font-oswald-semibold, $base-url + 'fonts/', 'oswald-semibold', 'oswald-semibold', 600);
+@include font-face($font-oswald-bold, $base-url + 'fonts/', 'oswald-bold', 'oswald-bold', 700);
